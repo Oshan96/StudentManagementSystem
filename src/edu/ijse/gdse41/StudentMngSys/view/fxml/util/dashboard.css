@@ -1,0 +1,25 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.AnchorPane{
+    -fx-background-color :  
+        #ffae23,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-border-color: #ffe86b;
+    -fx-border-width: 2;
+}
+
+accordion .titled-pane > *.content {
+  -fx-background-color: #fa4532;
+}
+
+.jfx-hamburger StackPane {
+    -fx-background-color: #ffffff;
+}

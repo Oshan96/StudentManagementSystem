@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchrMain" maxHeight="777.0" maxWidth="1284.0" prefHeight="777.0" prefWidth="1284.0" style="-fx-background-color: #353940,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));" styleClass="AnchorPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.DashboardController">
+    <stylesheets>
+        <URL value="@util/dashboard.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="150.0" prefWidth="1280.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="83.0" fitWidth="99.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/images/logos.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="43.0" layoutX="1244.0" onMouseReleased="#Close" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <image>
+                  <Image url="@../../resources/icons/iconClose.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="2.0" layoutY="143.0" prefHeight="7.0" prefWidth="1280.0" style="-fx-background-color: #ffb300;" />
+            <JFXHamburger fx:id="ham" layoutX="10.0" layoutY="116.0" />
+            <Label layoutX="359.0" layoutY="24.0" text="Student Management" textFill="#ffe86b">
+               <font>
+                  <Font name="Geometr415 Blk BT Black" size="70.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgMin" fitHeight="36.0" fitWidth="43.0" layoutX="1208.0" layoutY="1.0" onMouseClicked="#imgMinClicked" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <image>
+                  <Image url="@../../resources/icons/min.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchrView" layoutX="2.0" layoutY="150.0" prefHeight="652.0" prefWidth="1280.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" />
+      <AnchorPane fx:id="fade" layoutX="50.0" layoutY="150.0" onMouseClicked="#sFadeAction" opacity="0.0" prefHeight="652.0" prefWidth="1232.0" style="-fx-background-color: black;" AnchorPane.rightAnchor="2.0" />
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="230.0" layoutX="46.0" layoutY="150.0" maxHeight="652.0" prefHeight="652.0" prefWidth="230.0" AnchorPane.leftAnchor="46.0" />
+      <ImageView fx:id="imgSide" fitHeight="652.0" fitWidth="50.0" layoutY="150.0" onMouseClicked="#sideBarMouseClicked" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../../resources/images/sideBar.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 2, 2017, 3:03:31 PM
+    Author     : oshan
+*/
+
+.dialog-pane{
+  -fx-border-color:#ffe86b;
+  -fx-border-width:2px;
+  -fx-background-color :  #ffae23,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+  -fx-text-base-color:#ffffff;
+  
+  -fx-font-family:"Arial";
+ 
+  -fx-font-size:18.0px;
+  
+ }
+ 
+.dialog-pane:header .header-panel {
+  -fx-background-color: #ffae23,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+  
+}
+ 
+.dialog-pane:header .header-panel .label{
+    -fx-text-fill:#ffffff;
+    -fx-font-size:22.0px;
+     -fx-font-weight:bold;
+    -fx-fill:#ffffff;
+    -fx-font-family:"Arial";
+}
+
+.dialog-pane .label{
+    -fx-text-fill:white;
+} 

@@ -1,0 +1,50 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.button{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+
+.Label{
+    -fx-text-inner-color: #ffffff;
+}
+
+ 
+.chart-title {
+  -fx-text-fill: #ffcb1e;
+  -fx-font-size: 33px;
+  -fx-font-family:"Baskerville Old Face"
+}
+
+ 
+.chart-legend {
+   -fx-background-color:  #828282;
+   -fx-padding: 10px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+   
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: whitesmoke;
+    -fx-font-family:"Arial";
+    -fx-font-size:16px;
+}
+ 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="1280.0" style="-fx-background-color: #ffae23,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.MarkAttendanceController">
+    <stylesheets>
+        <URL value="@util/markattendance.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="62.0" layoutY="88.0" opacity="0.13" prefHeight="210.0" prefWidth="972.0" style="-fx-background-color: #1565c0;">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Label layoutX="96.0" layoutY="175.0" text="Student ID" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSid" layoutX="249.0" layoutY="172.0" onAction="#txtSidAction" prefHeight="43.0" prefWidth="179.0">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </TextField>
+      <Label layoutX="465.0" layoutY="175.0" text="Student Name" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentName" editable="false" layoutX="656.0" layoutY="172.0" prefHeight="43.0" prefWidth="324.0">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </TextField>
+      <Label layoutX="96.0" layoutY="113.0" text="Subject" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="cmbSubject" layoutX="197.0" layoutY="103.0" onAction="#cmbSubjectState" prefHeight="51.0" prefWidth="359.0" />
+      <Label layoutX="656.0" layoutY="121.0" text="Batch" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="242.0" text="Reg. ID" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtRegId" editable="false" layoutX="249.0" layoutY="238.0" prefHeight="43.0" prefWidth="178.0">
+         <font>
+            <Font name="Baskerville Old Face" size="22.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="tblAttendance" layoutX="62.0" layoutY="317.0" prefHeight="320.0" prefWidth="972.0">
+        <columns>
+          <TableColumn fx:id="tblColStudentName" prefWidth="243.0" text="Student Name" />
+          <TableColumn fx:id="tblColNic" prefWidth="164.0" text="NIC" />
+            <TableColumn fx:id="tblColTel" prefWidth="171.0" text="Contact No." />
+            <TableColumn fx:id="tblColSubject" minWidth="8.0" prefWidth="302.0" text="Subject" />
+            <TableColumn fx:id="tblColHall" prefWidth="87.0" text="Hall" />
+        </columns>
+      </TableView>
+      <Label layoutX="1050.0" layoutY="88.0" opacity="0.13" prefHeight="553.0" prefWidth="220.0" style="-fx-background-color: #1565c0;">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Label layoutX="1061.0" layoutY="151.0" text="Payment Status" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPaymentStatus" layoutX="1061.0" layoutY="206.0" prefHeight="43.0" prefWidth="197.0" styleClass="Label" />
+      <Separator layoutX="1060.0" layoutY="256.0" prefWidth="200.0" />
+      <Label layoutX="1061.0" layoutY="442.0" text="Class Fee " textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblClassFee" layoutX="1061.0" layoutY="497.0" prefHeight="43.0" prefWidth="197.0" styleClass="Label" />
+      <Separator layoutX="1059.0" layoutY="545.0" prefWidth="200.0" />
+      <Label layoutX="1061.0" layoutY="299.0" text="Last Payment" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPDate" layoutX="1061.0" layoutY="354.0" prefHeight="43.0" prefWidth="197.0" styleClass="Label" />
+      <Separator layoutX="1059.0" layoutY="402.0" prefWidth="200.0" />
+      <Label layoutX="412.0" layoutY="22.0" text="MARK" textFill="#ffe86b">
+         <font>
+            <Font name="Geometr415 Blk BT Black" size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" text="Attendance" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="64.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="cmbBatchId" layoutX="749.0" layoutY="106.0" prefHeight="51.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

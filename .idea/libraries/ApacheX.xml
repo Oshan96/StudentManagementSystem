@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="ApacheX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/poi-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/curvesapi-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApacheX/poi-ooxml-3.16.jar!/" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

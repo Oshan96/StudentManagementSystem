@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import java.net.URL?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="600.0" prefWidth="800.0" styleClass="AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.SplashScreenController">
+    <stylesheets>
+        <URL value="@util/splashscreen.css" />
+    </stylesheets>
+   <children>
+      <JFXSpinner layoutX="365.0" layoutY="409.0" radius="31.0" />
+      <ImageView fitHeight="330.0" fitWidth="630.0" layoutX="181.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/images/logos.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

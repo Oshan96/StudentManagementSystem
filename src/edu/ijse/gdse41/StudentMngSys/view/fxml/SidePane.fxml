@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="230.0" style="-fx-background-color: #ffae23,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.SidePaneController">
+    <stylesheets>
+        <URL value="@util/sidepane.css" />
+      <URL value="@util/dialogs.css" />
+    </stylesheets>
+   <children>
+      <JFXButton fx:id="btnReg" buttonType="RAISED" onAction="#btnRegAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Register Student" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnView" buttonType="RAISED" layoutY="70.0" onAction="#btnViewAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="View Registrations" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnProfile" buttonType="RAISED" layoutY="140.0" onAction="#btnProAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Student Profile" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnExamMarks" buttonType="RAISED" layoutY="210.0" onAction="#btnExamMarksAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Exam Marks" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnReports" buttonType="RAISED" layoutY="280.0" onAction="#btnReportsAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Reports" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnMarkAttendance" buttonType="RAISED" layoutY="350.0" onAction="#btnMarkAttendanceAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Mark Attendance" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnBackup" buttonType="RAISED" layoutY="420.0" onAction="#btnBackupAction" prefHeight="57.0" prefWidth="230.0" ripplerFill="#d0872d" text="Backup/Restore" textFill="#a46119">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

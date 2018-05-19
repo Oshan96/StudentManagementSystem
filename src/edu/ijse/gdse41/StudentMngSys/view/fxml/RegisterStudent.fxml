@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pnlMain" prefHeight="652.0" prefWidth="1280.0" style="-fx-background-color: #ffae23,linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),linear-gradient(#20262b, #191d22),radial-gradient(center 50% 40%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.RegisterStudentController">
+    <stylesheets>
+        <URL value="@util/registerstudent.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="417.0" layoutY="25.0" text="REGISTER" textFill="#ffe86b">
+         <font>
+            <Font name="Geometr415 Blk BT Black" size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="627.0" layoutY="3.0" text="Student" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="94.0" opacity="0.13" prefHeight="527.0" prefWidth="1185.0" style="-fx-background-color: #1565c0;" textFill="#726b6b">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="txtName" layoutX="237.0" layoutY="124.0" prefHeight="47.0" prefWidth="358.0" promptText="Full name" />
+      <Label layoutX="100.0" layoutY="125.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddress" layoutX="237.0" layoutY="191.0" prefHeight="47.0" prefWidth="358.0" promptText="Address" />
+      <Label layoutX="100.0" layoutY="192.0" text="Address" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTel1" layoutX="237.0" layoutY="316.0" onKeyReleased="#txtTel1Validation" prefHeight="47.0" prefWidth="358.0" promptText="Contact No." />
+      <TextField fx:id="txtNic" layoutX="236.0" layoutY="390.0" onKeyReleased="#txtNicValidation" prefHeight="47.0" prefWidth="358.0" promptText="National Identity Card No." />
+      <TextField fx:id="txtGuardianName" layoutX="870.0" layoutY="192.0" prefHeight="47.0" prefWidth="358.0" promptText="Guardian Name" />
+      <TextField fx:id="txtTel2" layoutX="869.0" layoutY="261.0" onKeyReleased="#txtTel2Validation" prefHeight="47.0" prefWidth="358.0" promptText="Guardian Contatc No." />
+      <Label layoutX="100.0" layoutY="321.0" text="Tel." textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="262.0" text="DoB" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="dtPkr" defaultColor="#f5af23" layoutX="237.0" layoutY="262.0" prefHeight="46.0" prefWidth="358.0" promptText="Date of Birth" style="-fx-text-inner-color: WHITE;" />
+      <Label layoutX="100.0" layoutY="391.0" text="NIC" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnReg" buttonType="RAISED" layoutX="1053.0" layoutY="532.0" onAction="#btnRegisterEvent" text="Register" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="442.0" layoutY="467.0" text="Class" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="cmbClass" layoutX="549.0" layoutY="454.0" onAction="#cmbClassState" prefHeight="51.0" prefWidth="317.0" styleClass="combo-box" />
+      <Label layoutX="910.0" layoutY="466.0" text="Batch" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="cmbBatch" layoutX="1010.0" layoutY="454.0" onAction="#cmbBatchState" prefHeight="51.0" prefWidth="161.0" styleClass="combo-box" />
+      <Label layoutX="100.0" layoutY="464.0" text="Section" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="cmbSection" layoutX="237.0" layoutY="454.0" onAction="#cmbSectionState" prefHeight="31.0" prefWidth="143.0" />
+      <Label layoutX="100.0" layoutY="544.0" text="ADMISSION FEE : " textFill="#d99400">
+         <font>
+            <Font name="Bookman Old Style" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAdmission" layoutX="423.0" layoutY="539.0" prefHeight="47.0" prefWidth="241.0" textFill="#ee592f">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="263.0" text="Guardian Tel " textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="646.0" layoutY="194.0" text="Guardian Name" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Separator layoutX="624.0" layoutY="131.0" orientation="VERTICAL" prefHeight="305.0" prefWidth="4.0" />
+      <JFXRadioButton fx:id="rdBtnMale" layoutX="800.0" layoutY="128.0" selected="true" text="Male" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="grp" />
+         </toggleGroup>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="rdBtnFemale" layoutX="948.0" layoutY="128.0" text="Female" textFill="WHITE" toggleGroup="$grp">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </JFXRadioButton>
+      <Label layoutX="650.0" layoutY="128.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="651.0" layoutY="333.0" text="Picture" textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPic" layoutX="752.0" layoutY="329.0" prefHeight="47.0" prefWidth="349.0" />
+      <JFXButton fx:id="btnBrowse" buttonType="RAISED" layoutX="1116.0" layoutY="329.0" onAction="#btnBrowseAction" text="Browse" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

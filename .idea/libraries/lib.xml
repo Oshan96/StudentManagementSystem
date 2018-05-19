@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-fonts-6.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/controlsfx-8.40.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/poi-ooxml-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-digester-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/itextpdf-5.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-javaflow-6.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jasperreports-6.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/zxing-1.7-javase.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/poi-scratchpad-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/zxing-1.7-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/poi-ooxml-schemas-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-javaflow-1590792.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/curvesapi-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/poi-excelant-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/poi-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/commons-codec-1.10.jar!/" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

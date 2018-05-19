@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.ijse.gdse41.StudentMngSys.dto.AttendanceDTO</OriginalElement>
+  <nodes>
+    <node x="6815.5" y="1509.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.LoginDBControllerImpl</node>
+    <node x="3542.1607142857138" y="1396.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.StudentDBControllerImpl</node>
+    <node x="3377.9999999999995" y="429.0">edu.ijse.gdse41.StudentMngSys.dto.BatchDTO</node>
+    <node x="431.99999999999955" y="289.0">edu.ijse.gdse41.StudentMngSys.dto.ExamDetailDTO</node>
+    <node x="6544.5" y="1494.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ExamDBControllerImpl</node>
+    <node x="2704.1607142857138" y="1466.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.AttendanceDBControllerImpl</node>
+    <node x="4857.0" y="696.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.PaymentDBController</node>
+    <node x="1181.9999999999995" y="289.0">edu.ijse.gdse41.StudentMngSys.dto.AttendanceDTO</node>
+    <node x="5705.0" y="626.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.RegisterDBController</node>
+    <node x="5831.5" y="0.0">edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController</node>
+    <node x="400.74999999999955" y="1354.0">edu.ijse.gdse41.StudentMngSys.dto.ExamDTO</node>
+    <node x="4867.5" y="1480.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.PaymentDBControllerImpl</node>
+    <node x="0.0" y="513.0">edu.ijse.gdse41.StudentMngSys.dto.PaymentDTO</node>
+    <node x="7158.5" y="1368.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.BatchDBControllerImpl</node>
+    <node x="6576.0" y="710.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDBController</node>
+    <node x="5221.5" y="1382.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ClassesDBControllerImpl</node>
+    <node x="4345.0" y="612.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.StudentDBController</node>
+    <node x="7156.0" y="584.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.BatchDBController</node>
+    <node x="2432.9999999999995" y="163.0">edu.ijse.gdse41.StudentMngSys.dto.StudentDTO</node>
+    <node x="3928.9999999999995" y="696.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.AttendanceDBController</node>
+    <node x="5739.5" y="1396.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.RegisterDBControllerImpl</node>
+    <node x="1516.9999999999995" y="28.0">edu.ijse.gdse41.StudentMngSys.dto.SuperDTO</node>
+    <node x="2004.9999999999995" y="513.0">edu.ijse.gdse41.StudentMngSys.dto.RegistrationDTO</node>
+    <node x="6835.5" y="696.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.LoginDBController</node>
+    <node x="6185.0" y="696.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDetailDBController</node>
+    <node x="5169.0" y="598.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ClassesDBController</node>
+    <node x="6235.0" y="1480.0">edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ExamDetailDBControllerImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.ExamDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="-104.25" y="-215.5" />
+      <point x="504.99999999999955" y="1334.0" />
+      <point x="421.49999999999955" y="1334.0" />
+      <point x="421.49999999999955" y="133.0" />
+      <point x="1545.4999999999995" y="133.0" />
+      <point x="-38.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.RegisterDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-102.5" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.ExamDetailDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-439.5" />
+      <point x="796.9999999999995" y="143.0" />
+      <point x="1564.4999999999995" y="143.0" />
+      <point x="-19.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDetailDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-32.5" />
+      <point x="6370.5" y="143.0" />
+      <point x="5958.0" y="143.0" />
+      <point x="23.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.StudentDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-116.5" />
+      <point x="4591.0" y="123.0" />
+      <point x="5866.0" y="123.0" />
+      <point x="-69.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.AttendanceDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.AttendanceDBController">
+      <point x="72.75" y="-103.5" />
+      <point x="2922.4107142857138" y="1324.0" />
+      <point x="4127.0" y="1324.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.PaymentDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-215.5" />
+      <point x="205.5" y="123.0" />
+      <point x="1526.4999999999995" y="123.0" />
+      <point x="-57.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ExamDetailDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDetailDBController">
+      <point x="0.0" y="-89.5" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.BatchDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-299.5" />
+      <point x="3643.4999999999995" y="123.0" />
+      <point x="1640.4999999999995" y="123.0" />
+      <point x="57.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ClassesDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-130.5" />
+      <point x="5427.0" y="143.0" />
+      <point x="5912.0" y="143.0" />
+      <point x="-23.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.PaymentDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.PaymentDBController">
+      <point x="0.0" y="-89.5" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.LoginDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-32.5" />
+      <point x="6977.0" y="123.0" />
+      <point x="6004.0" y="123.0" />
+      <point x="69.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-18.5" />
+      <point x="6670.0" y="133.0" />
+      <point x="5981.0" y="133.0" />
+      <point x="46.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.AttendanceDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-439.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.LoginDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.LoginDBController">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.AttendanceDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dto.AttendanceDTO">
+      <point x="-72.75" y="-103.5" />
+      <point x="2776.9107142857138" y="1334.0" />
+      <point x="1583.4999999999995" y="1334.0" />
+      <point x="0.0" y="439.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ClassesDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ClassesDBController">
+      <point x="0.0" y="-187.5" />
+      <point x="0.0" y="130.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.RegistrationDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-215.5" />
+      <point x="2208.9999999999995" y="143.0" />
+      <point x="1602.4999999999995" y="143.0" />
+      <point x="19.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.AttendanceDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-32.5" />
+      <point x="4127.0" y="113.0" />
+      <point x="5843.0" y="113.0" />
+      <point x="-92.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.RegisterDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.RegisterDBController">
+      <point x="0.0" y="-173.5" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.StudentDTO" target="edu.ijse.gdse41.StudentMngSys.dto.SuperDTO">
+      <point x="0.0" y="-565.5" />
+      <point x="2895.4999999999995" y="133.0" />
+      <point x="1621.4999999999995" y="133.0" />
+      <point x="38.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.StudentDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dto.StudentDTO">
+      <point x="-97.75" y="-173.5" />
+      <point x="3639.9107142857138" y="1314.0" />
+      <point x="2895.4999999999995" y="1314.0" />
+      <point x="0.0" y="565.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dto.ExamDTO" target="edu.ijse.gdse41.StudentMngSys.dto.ExamDetailDTO">
+      <point x="104.25" y="-215.5" />
+      <point x="713.4999999999995" y="1334.0" />
+      <point x="796.9999999999995" y="1334.0" />
+      <point x="0.0" y="439.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.BatchDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-144.5" />
+      <point x="7374.0" y="113.0" />
+      <point x="6027.0" y="113.0" />
+      <point x="92.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.BatchDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.BatchDBController">
+      <point x="0.0" y="-201.5" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.PaymentDBController" target="edu.ijse.gdse41.StudentMngSys.dbControllers.SuperController">
+      <point x="0.0" y="-32.5" />
+      <point x="5003.0" y="133.0" />
+      <point x="5889.0" y="133.0" />
+      <point x="-46.0" y="46.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.ExamDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.ExamDBController">
+      <point x="0.0" y="-75.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.impl.StudentDBControllerImpl" target="edu.ijse.gdse41.StudentMngSys.dbControllers.custom.StudentDBController">
+      <point x="97.75" y="-173.5" />
+      <point x="3835.4107142857138" y="1334.0" />
+      <point x="4591.0" y="1334.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="336.85714285714266" y="946.5714285714286" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

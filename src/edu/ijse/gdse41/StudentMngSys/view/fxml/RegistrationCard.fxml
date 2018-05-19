@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="398.0" prefWidth="657.0" styleClass="AnchorPane" stylesheets="@util/registrationcard.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ijse.gdse41.StudentMngSys.view.controller.RegistrationCardController">
+   <children>
+      <AnchorPane prefHeight="42.0" prefWidth="646.0">
+         <children>
+            <ImageView fx:id="btnClose" fitHeight="36.0" fitWidth="43.0" layoutX="614.0" layoutY="2.0" onMouseClicked="#Close" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/icons/iconClose.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <Separator layoutY="39.0" prefHeight="1.0" prefWidth="653.0" style="-fx-background-color: #ffe86b;;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pnlScreen" layoutY="42.0" prefHeight="323.0" prefWidth="653.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="imgStudent" fitHeight="117.0" fitWidth="105.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgBarcode" fitHeight="60.0" fitWidth="266.0" layoutX="386.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="lblMname" layoutX="131.0" layoutY="111.0" text="Full Name" />
+            <Label fx:id="lblMNic" layoutX="131.0" layoutY="143.0" text="NIC" />
+            <Label fx:id="lblMAddress" layoutX="132.0" layoutY="203.0" text="Address" />
+            <Label fx:id="lblMDob" layoutX="132.0" layoutY="249.0" text="Date of Birth" />
+            <Label fx:id="lblMRegDate" layoutX="131.0" layoutY="69.0" text="Reg. Date " />
+            <Label fx:id="lblMTel" layoutX="132.0" layoutY="285.0" text="Contact No." />
+            <Label fx:id="lblName" layoutX="287.0" layoutY="108.0" prefHeight="26.0" prefWidth="280.0" style="-fx-font-family: Baskerville Old Face;" />
+            <Label fx:id="lblNic" layoutX="287.0" layoutY="143.0" prefHeight="26.0" prefWidth="280.0" style="-fx-font-family: Baskerville Old Face;" />
+            <Label fx:id="lblAddress" layoutX="288.0" layoutY="176.0" prefHeight="79.0" prefWidth="298.0" style="-fx-font-family: Baskerville Old Face; -fx-font-size: 18;" wrapText="true" />
+            <Label fx:id="lblDob" layoutX="288.0" layoutY="249.0" prefHeight="26.0" prefWidth="195.0" style="-fx-font-family: Baskerville Old Face;" />
+            <Label fx:id="lblTel" layoutX="288.0" layoutY="282.0" prefHeight="26.0" prefWidth="195.0" style="-fx-font-family: Baskerville Old Face;" />
+            <Label fx:id="lblRegDate" layoutX="249.0" layoutY="69.0" prefHeight="26.0" prefWidth="154.0" style="-fx-font-family: Baskerville Old Face;" />
+            <Label fx:id="lblTitle" layoutX="143.0" layoutY="14.0" style="-fx-font-size: 30;" text="Student ID Card" />
+            <ImageView fitHeight="60.0" fitWidth="89.0" layoutX="569.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/images/logos.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="365.0" prefHeight="66.0" prefWidth="641.0">
+         <children>
+            <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="541.0" layoutY="10.0" onAction="#btnSaveAction" prefHeight="42.0" prefWidth="105.0" ripplerFill="#d7ab28" text="Save" />
+            <Separator layoutY="-1.0" prefHeight="3.0" prefWidth="653.0" style="-fx-background-color: #ffe86b;;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

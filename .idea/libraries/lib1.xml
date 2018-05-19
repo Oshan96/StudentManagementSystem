@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/poi-excelant-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zxing-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/controlsfx-8.40.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-ooxml-schemas-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/itextpdf-5.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfreechart-1.0.19-demo.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zxing-1.7-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zxing-master.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-scratchpad-3.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zxing-1.7-javase.jar!/" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

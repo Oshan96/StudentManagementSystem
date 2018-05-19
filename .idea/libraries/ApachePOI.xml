@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ApachePOI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ApachePOI/poi-3.7-20101029.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApachePOI/junit-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApachePOI/log4j-1.2.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ApachePOI/commons-logging-1.1.jar!/" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

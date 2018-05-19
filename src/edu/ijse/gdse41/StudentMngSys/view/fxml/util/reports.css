@@ -1,0 +1,113 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+
+.combo-box-base{
+    -fx-font-size: 18pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-base-color: #ffae23;
+}
+
+.combo-box-base > .arrow-button > .arrow{
+    -fx-background-color: white;
+}
+
+
+.butt{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+
+.jfx-tab-pane .tab-label{
+    -fx-font-size:20px;
+}
+
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #1b75bc;
+}
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #1b75bc;
+}
+.jfx-tab-pane .tab-selected-line {
+    -fx-stroke: #75bc1b;
+    -fx-stroke-width: 3pt;
+}
+
+.but{
+    -fx-font-family:"Arial";
+    -fx-text-fill: red;
+    -fx-background-color: yellow;
+    -fx-font-size:18;
+}
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-image: url("icon.png");   
+}
+.chart-content {
+    -fx-padding: 10px;    
+}
+ 
+.chart-title {
+  -fx-text-fill: white;
+  -fx-font-family:Arial;
+  -fx-font-size: 30px;
+}
+ 
+.axis-label {
+  -fx-text-fill: #4682b4;
+}
+ 
+.chart-legend {
+   -fx-background-color:  #828282;
+   -fx-padding: 12px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: WHITE;
+}
+ 
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: white;
+}
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.axis {
+    -fx-font-size: 14;    
+    -fx-tick-label-fill: white;
+    -fx-font-family: Arial;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+ 
+.axis-label {
+   -fx-text-fill: white; 
+}
